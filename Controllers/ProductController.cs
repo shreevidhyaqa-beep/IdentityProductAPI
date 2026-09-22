@@ -19,7 +19,8 @@ namespace ProductAPIIdentity.Controllers
         [HttpPost]
         public async Task<IActionResult> Create()
         {
-            return Ok("Product Created");
+            return Ok("Product Created Successfully");
+            
         }
     }
 }
